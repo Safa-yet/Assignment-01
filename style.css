@@ -67,12 +67,12 @@ nav ul {
   gap: 32px;
   align-items: center;
 }
-ul li a{
+ul li a {
   text-decoration: none;
   color: black;
 }
 
-ul li a:hover{
+ul li a:hover {
   color: #30b868;
 }
 header section {
@@ -209,13 +209,13 @@ footer {
   font-size: 20px;
   margin-bottom: 16px;
 }
-.link-box{
+.link-box {
   display: flex;
   align-items: center;
-  gap:16px ;
+  gap: 16px;
 }
 .links {
-  width: 30px ;
+  width: 30px;
   height: 30px;
   display: flex;
   justify-content: center;
