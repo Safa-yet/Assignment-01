@@ -67,6 +67,7 @@ header section {
 .hero-sec {
   text-align: center;
   color: white;
+  margin-bottom: 120px;
 }
 
 .hero-sec .dot-box {
@@ -124,4 +125,37 @@ header section {
   padding: 14px;
   background: #f95555;
   border-radius: 50%;
+}
+
+
+/* Brand Sec */
+
+.brand-sec{
+
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 120px;
+
+}
+
+.brand-sec h3{
+  text-transform: uppercase;
+  color: #30b868;
+  margin-bottom: 16px;
+}
+.brand-sec h1{
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.check-div{
+  margin-top: 40px;
+}
+
+.check-line{
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
