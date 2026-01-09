@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-/*  */
+/*Common  */
 .container {
   width: 85%;
   max-width: 1360px;
@@ -21,6 +21,12 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.primary-btn:hover{
+  background: #001931;
+
 }
 
 .sec-btn {
@@ -32,6 +38,12 @@
   font-size: 16px;
   cursor: pointer;
   margin-left: 16px;
+  transition: all .2s ease-in-out;
+
+}
+.sec-btn:hover{
+  background: #30b868;
+  
 }
 
 .color-green {
@@ -45,6 +57,12 @@ main p {
   color: #627382;
 }
 
+
+
+
+
+
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -57,6 +75,9 @@ nav ul {
   display: flex;
   gap: 32px;
   align-items: center;
+}
+nav li{
+  cursor: pointer;
 }
 header section {
   background: url("./img/hero-bg.png");
@@ -158,4 +179,20 @@ header section {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+
+/* Early Access box */
+
+.early-access{
+  padding:80px 40px ;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.early-access h1{
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.early-access button{
+  margin: 30px;
 }
