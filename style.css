@@ -21,12 +21,11 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
   background: #001931;
-
 }
 
 .sec-btn {
@@ -38,12 +37,10 @@
   font-size: 16px;
   cursor: pointer;
   margin-left: 16px;
-  transition: all .2s ease-in-out;
-
+  transition: all 0.2s ease-in-out;
 }
-.sec-btn:hover{
+.sec-btn:hover {
   background: #30b868;
-  
 }
 
 .color-green {
@@ -56,12 +53,6 @@ main h1 {
 main p {
   color: #627382;
 }
-
-
-
-
-
-
 
 header nav {
   display: flex;
@@ -76,8 +67,13 @@ nav ul {
   gap: 32px;
   align-items: center;
 }
-nav li{
-  cursor: pointer;
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover{
+  color: #30b868;
 }
 header section {
   background: url("./img/hero-bg.png");
@@ -132,11 +128,13 @@ header section {
 }
 
 .note-item {
-  max-width: 322px;
+  width: 322px;
+  height: 300px;
   padding: 69.5px 24px;
   display: flex;
   gap: 16px;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: rgb(253, 237, 215);
   border-radius: 10px;
@@ -148,51 +146,85 @@ header section {
   border-radius: 50%;
 }
 
-
 /* Brand Sec */
 
-.brand-sec{
-
+.brand-sec {
   display: flex;
   align-items: center;
   gap: 60px;
   margin-bottom: 120px;
-
 }
 
-.brand-sec h3{
+.brand-sec h3 {
   text-transform: uppercase;
   color: #30b868;
   margin-bottom: 16px;
 }
-.brand-sec h1{
+.brand-sec h1 {
   font-size: 48px;
   margin-bottom: 16px;
 }
 
-.check-div{
+.check-div {
   margin-top: 40px;
 }
 
-.check-line{
+.check-line {
   margin-top: 16px;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-
 /* Early Access box */
 
-.early-access{
-  padding:80px 40px ;
+.early-access {
+  padding: 80px 40px;
   text-align: center;
   margin-bottom: 120px;
+  background-color: #f7f6f2;
 }
-.early-access h1{
+.early-access h1 {
   font-size: 40px;
   margin-bottom: 16px;
 }
-.early-access button{
-  margin: 30px;
+.early-access button {
+  margin: 30px 0;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: #001931;
+  color: white;
+}
+
+.footer-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0;
+}
+.footer-sec h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.links {
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  margin-right: 16px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.links:hover {
+  background: #30b868;
+  color: white;
+}
+
+.copyright-text {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.308);
 }
